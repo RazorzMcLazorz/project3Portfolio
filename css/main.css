@@ -1,0 +1,83 @@
+@import "header.css";
+@import "card.css";
+@import "languageSpin.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Iceberg';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #550701;
+}
+
+#sunsetMountains {
+  z-index: -1;
+  position: absolute;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.sectionTitle {
+  color: white;
+  font-size: 32px;
+}
+
+.aboutMeAdjustment {
+  display: flex;
+}
+
+.vacayPic {
+  height: 500px;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.contactMePart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactLinks a {
+  color: white;
+  font-size: 20px;
+}
+
+.refference {
+  width: 500px;
+  padding-top: 50px;
+}
+
+.refferenceContent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 480px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.refferenceContent p{
+  color: #fff;
+  margin: 5px;
+}
+
+footer {
+  color: #fff;
+  margin-top: 150px;
+  padding: 5px;
+  font-size: 14px;
+}

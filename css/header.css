@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upperPart {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navComponent {
+  display: flex;
+  padding: 5px;
+}
+
+.navComponent a {
+  text-decoration: none;
+  color: #550701;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.navComponent a:hover {
+  color: #911201;
+}
+
+#myLogo {
+  height: 60px;
+  border-radius: 90%;
+  padding: 15px;
+}
+
+.myName {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.scrollDownButton #downIcon {
+  align-self: flex-end;
+  height: 45px;
+  width: 45px;
+  border-radius: 90%;
+  background-color: #F07601;
+}
+
+.scrollDownButton,
+#downIcon {
+  opacity: 0;
+  animation: fadeIn 0.6s forwards;
+  animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  51% {
+    transform: translateY(-16px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
